@@ -16,5 +16,20 @@ export const P = styled.p(
   props => ({color: props.color})
 )
 
+export const FOOTER = styled.footer(
+  {
+    color: 'cyan',
+    fontSize: 20
+},
+props => ({color: props.color})
+)
+export const LI = styled.li(
+  {
+    backgroundColor: 'green',
+    color: 'cyan',
+    fontSize: 20
+},
+props => ({color: props.color})
+)
 
 
